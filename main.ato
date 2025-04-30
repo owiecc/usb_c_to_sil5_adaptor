@@ -1,2 +1,9 @@
+import Resistor
 
 module App:
+    R1 = new Resistor
+    R1.resistance = 5.1kΩ ± 1%
+    R1.package = "R0402"
+    R2 = new Resistor
+    R2.resistance = 5.1kΩ ± 1%
+    R2.package = "R0402"
