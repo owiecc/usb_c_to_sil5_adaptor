@@ -1,5 +1,2 @@
-# usb_c_to_sil5_adaptor
+# USB-C to SIL5 adaptor
 
-A brand new atopile project!
-
-Created by Szymon Bęczkowski <pepper@atopile.io>
