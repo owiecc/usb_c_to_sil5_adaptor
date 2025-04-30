@@ -1,5 +1,7 @@
 import Resistor
 
+from "connectors/UJC-HP-3-SMT-TR.ato" import UJC_HP_3_SMT_TR
+
 module App:
     signal VCC
     signal GND
@@ -13,3 +15,9 @@ module App:
 
     R1.p2 ~ GND
     R2.p2 ~ GND
+
+    USBC = new UJC_HP_3_SMT_TR
+    USBC.CC1 ~ R1.p1
+    USBC.CC2 ~ R2.p1
+    USBC.V_BUS ~ VCC
+    USBC.GND ~ GND

@@ -1,0 +1,12 @@
+component UJC_HP_3_SMT_TR:
+    footprint = "CONN-SMD_UJC-HP-3-SMT-TR"
+    manufacturer = "Same Sky"
+    mpn = "UJC-HP-3-SMT-TR"
+    # pins
+    signal CC1 ~ pin A5
+    signal CC2 ~ pin B5
+    signal V_BUS ~ pin A9
+    signal V_BUS ~ pin B9
+    signal GND ~ pin A12
+    signal GND ~ pin B12
+    signal SHIELD ~ pin SHLD
